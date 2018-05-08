@@ -3,33 +3,33 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  array = ["A", "B", "C"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array << "D"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array.pop("F")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array.shift
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array.unshift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  array.index ("B")
 end
 
 def retrieve_first_element_from_array(array)
-  
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  array[-1]
 end
